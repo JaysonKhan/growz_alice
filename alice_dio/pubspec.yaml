@@ -1,0 +1,21 @@
+name: alice_dio
+description: "Alice + Dio integration. It contains plugin for Alice which allows to use Dio package."
+version: 1.0.7
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  alice:
+    path: ../alice
+  dio: ^5.8.0+1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints:
+  test:
+  mocktail:
+  http_mock_adapter:
+  alice_test:
+    path: ../alice_test
